@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Badwords</title>
 </head>
 <body>
@@ -11,19 +12,14 @@
         PHP-Form
     </h1>
 
-    <form action="results.php">
+    <form action="results.php" class="form">
 
-        <div>
+        <div class="paragraph">
             <label for="paragraph">Inserisci il tuo paragrafo: </label>
             <input type="text" name="paragraph"  placeholder="Inserisci il tuo testo....">
         </div>
 
-        <div>
-            <label for="censored">Inserisci la tua parola da censurare: </label>
-            <input type="text" name="censored">
-        </div>
-
-        <input type="submit">
+        <input id="button" type="submit">
 
     </form>
     
